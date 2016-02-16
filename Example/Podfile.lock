@@ -1,0 +1,14 @@
+PODS:
+  - EEJSelectMenu (0.1.0)
+
+DEPENDENCIES:
+  - EEJSelectMenu (from `../`)
+
+EXTERNAL SOURCES:
+  EEJSelectMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EEJSelectMenu: f805b7ceba5fb3df9eeedd708c29e56a21b3330d
+
+COCOAPODS: 0.39.0
