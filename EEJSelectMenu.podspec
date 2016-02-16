@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "EEJSelectMenu"
   s.version          = "0.1.0"
-  s.summary          = "A short description of EEJSelectMenu."
+  s.summary          = "A responsive single selection menu with cool animations."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+This Cocoapod allows for implementing a menu with different number of buttons and different animations for appearance. It will adjust the button sizes based on the device screen size!
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/EEJSelectMenu"
+  s.homepage         = "https://github.com/eejahromi/EEJSelectMenu"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ehsan Jahromi" => "ehsan.enj@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/EEJSelectMenu.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/eejahromi/EEJSelectMenu.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

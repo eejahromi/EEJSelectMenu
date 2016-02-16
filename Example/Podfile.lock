@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EEJSelectMenu: f805b7ceba5fb3df9eeedd708c29e56a21b3330d
+  EEJSelectMenu: 7034b83bff86f4959cf1881172251f8e6fae7f37
 
 COCOAPODS: 0.39.0

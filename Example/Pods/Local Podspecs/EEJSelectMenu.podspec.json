@@ -1,19 +1,19 @@
 {
   "name": "EEJSelectMenu",
   "version": "0.1.0",
-  "summary": "A short description of EEJSelectMenu.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/EEJSelectMenu",
+  "summary": "A responsive single selection menu with cool animations.",
+  "description": "This Cocoapod allows for implementing a menu with different number of buttons and different animations for appearance. It will adjust the button sizes based on the device screen size!",
+  "homepage": "https://github.com/eejahromi/EEJSelectMenu",
   "license": "MIT",
   "authors": {
     "Ehsan Jahromi": "ehsan.enj@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/EEJSelectMenu.git",
+    "git": "https://github.com/eejahromi/EEJSelectMenu.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
