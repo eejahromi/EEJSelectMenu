@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '66438132991D1DBCADC5B75B'
+               BlueprintIdentifier = '408E94922E668647870E88C5'
                BlueprintName = 'EEJSelectMenu'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'EEJSelectMenu.framework'>
