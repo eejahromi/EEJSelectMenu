@@ -21,7 +21,7 @@ Just provide the names for the buttons and the menu will take care of the number
 ###### Animation: MoveInFromRight & Alternate 
 ![](lastTwo.gif)
 
-##### Version 0.10.2
+##### Version 0.1.0
 
 
 
