@@ -1,9 +1,9 @@
 # EEJSelectMenu
 
-[![CI Status](http://img.shields.io/travis/Ehsan Jahromi/EEJSelectMenu.svg?style=flat)](https://travis-ci.org/Ehsan Jahromi/EEJSelectMenu)
-[![Version](https://img.shields.io/cocoapods/v/EEJSelectMenu.svg?style=flat)](http://cocoapods.org/pods/EEJSelectMenu)
-[![License](https://img.shields.io/cocoapods/l/EEJSelectMenu.svg?style=flat)](http://cocoapods.org/pods/EEJSelectMenu)
-[![Platform](https://img.shields.io/cocoapods/p/EEJSelectMenu.svg?style=flat)](http://cocoapods.org/pods/EEJSelectMenu)
+<!--[![CI Status](http://img.shields.io/travis/Ehsan Jahromi/EEJSelectMenu.svg?style=flat)](https://travis-ci.org/Ehsan Jahromi/EEJSelectMenu)-->
+<!--[![Version](https://img.shields.io/cocoapods/v/EEJSelectMenu.svg?style=flat)](http://cocoapods.org/pods/EEJSelectMenu)-->
+<!--[![License](https://img.shields.io/cocoapods/l/EEJSelectMenu.svg?style=flat)](http://cocoapods.org/pods/EEJSelectMenu)-->
+<!--[![Platform](https://img.shields.io/cocoapods/p/EEJSelectMenu.svg?style=flat)](http://cocoapods.org/pods/EEJSelectMenu)-->
 
 
 EEJSelectMenu is a responsive single selection menu for iOS.  
