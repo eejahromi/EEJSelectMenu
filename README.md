@@ -27,7 +27,7 @@ Just provide the names for the buttons and the menu will take care of the number
 
 ## Installation
 
-### Using Cocoapods
+### Using CocoaPods
 EEJSelectMenu is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
