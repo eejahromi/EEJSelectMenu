@@ -28,22 +28,37 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wN3-0f-1LO">
                                 <rect key="frame" x="50" y="102" width="500" height="30"/>
                                 <state key="normal" title="4 buttons from Left"/>
+                                <connections>
+                                    <action selector="fourButtonsLeftPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OjO-kW-deR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Waf-Rh-h3o">
                                 <rect key="frame" x="50" y="156" width="500" height="30"/>
                                 <state key="normal" title="5 buttons from Right"/>
+                                <connections>
+                                    <action selector="fiveButtonsRightPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jbV-4w-GSJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IU3-Ja-jeu">
                                 <rect key="frame" x="50" y="211" width="500" height="30"/>
                                 <state key="normal" title="5 buttons Widen"/>
+                                <connections>
+                                    <action selector="fiveButtonsWidenPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ha1-Yd-8g2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16m-Xx-GTv">
                                 <rect key="frame" x="50" y="266" width="500" height="30"/>
                                 <state key="normal" title="6 buttons Scale"/>
+                                <connections>
+                                    <action selector="sixButtonScalePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xvf-nm-e8R"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dj9-TX-2o2">
                                 <rect key="frame" x="50" y="321" width="500" height="30"/>
                                 <state key="normal" title="6 buttons Alternate"/>
+                                <connections>
+                                    <action selector="sixButtonsAlternatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VGq-mj-hHC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAZ-vD-6X6">
                                 <rect key="frame" x="50" y="391" width="500" height="21"/>
