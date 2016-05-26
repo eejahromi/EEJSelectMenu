@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "EEJSelectMenu.h"
 
-@interface ViewController ()
+@interface ViewController () <EJSelectMenuDelegate>
 
 @end
 
@@ -16,12 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)threeButtonsFadePressed:(UIButton *)sender {
+    EEJSelectMenu *menu = [[EEJSelectMenu alloc]initWithButtons:@[@"ROCK",@"PAPER",@"SCISSORS"]
+                                                 animationStyle:EJAnimationStyleFadeIn
+                                                    andDelegate:self];
+    [self presentViewController:menu animated:NO completion:nil];
+}
+
+#pragma mark - EJSelectMenuDelegate
+
+- (void)EJSelectMenuButtonWasPressedWithTitle:(NSString *)title {
+    
 }
 
 @end

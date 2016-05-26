@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,67 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKk-dv-oTC">
+                                <rect key="frame" x="50" y="47" width="500" height="30"/>
+                                <state key="normal" title="3 buttons Fade in"/>
+                                <connections>
+                                    <action selector="threeButtonsFadePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GzH-bU-PQ1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wN3-0f-1LO">
+                                <rect key="frame" x="50" y="102" width="500" height="30"/>
+                                <state key="normal" title="4 buttons from Left"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Waf-Rh-h3o">
+                                <rect key="frame" x="50" y="156" width="500" height="30"/>
+                                <state key="normal" title="5 buttons from Right"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IU3-Ja-jeu">
+                                <rect key="frame" x="50" y="211" width="500" height="30"/>
+                                <state key="normal" title="5 buttons Widen"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16m-Xx-GTv">
+                                <rect key="frame" x="50" y="266" width="500" height="30"/>
+                                <state key="normal" title="6 buttons Scale"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dj9-TX-2o2">
+                                <rect key="frame" x="50" y="321" width="500" height="30"/>
+                                <state key="normal" title="6 buttons Alternate"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wN3-0f-1LO" firstAttribute="top" secondItem="SKk-dv-oTC" secondAttribute="bottom" constant="25" id="26X-bF-vbw"/>
+                            <constraint firstItem="SKk-dv-oTC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="7Sh-cL-JDz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Waf-Rh-h3o" secondAttribute="trailing" constant="30" id="GeI-ay-Fmk"/>
+                            <constraint firstItem="Dj9-TX-2o2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="H1i-OH-mbe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="16m-Xx-GTv" secondAttribute="trailing" constant="30" id="JUd-dC-3zz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wN3-0f-1LO" secondAttribute="trailing" constant="30" id="JpH-In-8w2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dj9-TX-2o2" secondAttribute="trailing" constant="30" id="P3v-dW-wGg"/>
+                            <constraint firstItem="wN3-0f-1LO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Ufa-mA-r26"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IU3-Ja-jeu" secondAttribute="trailing" constant="30" id="YnQ-PZ-Egu"/>
+                            <constraint firstItem="Waf-Rh-h3o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Yu0-kB-ojn"/>
+                            <constraint firstItem="SKk-dv-oTC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="27" id="ZV9-9y-24Z"/>
+                            <constraint firstItem="Dj9-TX-2o2" firstAttribute="top" secondItem="16m-Xx-GTv" secondAttribute="bottom" constant="25" id="bkq-vc-bon"/>
+                            <constraint firstItem="Dj9-TX-2o2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eS5-o2-Tyl"/>
+                            <constraint firstItem="IU3-Ja-jeu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="guR-Hb-dx1"/>
+                            <constraint firstItem="Waf-Rh-h3o" firstAttribute="top" secondItem="wN3-0f-1LO" secondAttribute="bottom" constant="24" id="hx5-La-nvp"/>
+                            <constraint firstItem="Waf-Rh-h3o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="joZ-TS-cfS"/>
+                            <constraint firstItem="IU3-Ja-jeu" firstAttribute="top" secondItem="Waf-Rh-h3o" secondAttribute="bottom" constant="25" id="nMj-4b-QvT"/>
+                            <constraint firstItem="wN3-0f-1LO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pW9-fj-iyg"/>
+                            <constraint firstItem="SKk-dv-oTC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rfw-1b-egz"/>
+                            <constraint firstItem="16m-Xx-GTv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="skF-n2-5CD"/>
+                            <constraint firstItem="16m-Xx-GTv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="uSK-85-VfH"/>
+                            <constraint firstItem="16m-Xx-GTv" firstAttribute="top" secondItem="IU3-Ja-jeu" secondAttribute="bottom" constant="25" id="y1n-7I-pud"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SKk-dv-oTC" secondAttribute="trailing" constant="30" id="yMf-vK-JBO"/>
+                            <constraint firstItem="IU3-Ja-jeu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="ywq-wL-LAI"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="593" y="381"/>
         </scene>
     </scenes>
 </document>
