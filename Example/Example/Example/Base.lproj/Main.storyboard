@@ -45,11 +45,22 @@
                                 <rect key="frame" x="50" y="321" width="500" height="30"/>
                                 <state key="normal" title="6 buttons Alternate"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAZ-vD-6X6">
+                                <rect key="frame" x="50" y="391" width="500" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="bsh-NY-SFU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wN3-0f-1LO" firstAttribute="top" secondItem="SKk-dv-oTC" secondAttribute="bottom" constant="25" id="26X-bF-vbw"/>
+                            <constraint firstItem="LAZ-vD-6X6" firstAttribute="top" secondItem="Dj9-TX-2o2" secondAttribute="bottom" constant="40" id="4t9-BY-qkz"/>
                             <constraint firstItem="SKk-dv-oTC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="7Sh-cL-JDz"/>
+                            <constraint firstItem="LAZ-vD-6X6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7t2-i2-kbP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Waf-Rh-h3o" secondAttribute="trailing" constant="30" id="GeI-ay-Fmk"/>
                             <constraint firstItem="Dj9-TX-2o2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="H1i-OH-mbe"/>
                             <constraint firstAttribute="trailingMargin" secondItem="16m-Xx-GTv" secondAttribute="trailing" constant="30" id="JUd-dC-3zz"/>
@@ -61,8 +72,10 @@
                             <constraint firstItem="SKk-dv-oTC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="27" id="ZV9-9y-24Z"/>
                             <constraint firstItem="Dj9-TX-2o2" firstAttribute="top" secondItem="16m-Xx-GTv" secondAttribute="bottom" constant="25" id="bkq-vc-bon"/>
                             <constraint firstItem="Dj9-TX-2o2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eS5-o2-Tyl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LAZ-vD-6X6" secondAttribute="trailing" constant="30" id="f5I-LP-2dv"/>
                             <constraint firstItem="IU3-Ja-jeu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="guR-Hb-dx1"/>
                             <constraint firstItem="Waf-Rh-h3o" firstAttribute="top" secondItem="wN3-0f-1LO" secondAttribute="bottom" constant="24" id="hx5-La-nvp"/>
+                            <constraint firstItem="LAZ-vD-6X6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="jfz-fg-xju"/>
                             <constraint firstItem="Waf-Rh-h3o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="joZ-TS-cfS"/>
                             <constraint firstItem="IU3-Ja-jeu" firstAttribute="top" secondItem="Waf-Rh-h3o" secondAttribute="bottom" constant="25" id="nMj-4b-QvT"/>
                             <constraint firstItem="wN3-0f-1LO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pW9-fj-iyg"/>
@@ -74,6 +87,9 @@
                             <constraint firstItem="IU3-Ja-jeu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="ywq-wL-LAI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buttonLabel" destination="LAZ-vD-6X6" id="GRt-JY-omP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

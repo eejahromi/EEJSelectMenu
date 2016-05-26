@@ -10,6 +10,7 @@
 #import "EEJSelectMenu.h"
 
 @interface ViewController () <EJSelectMenuDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *buttonLabel;
 
 @end
 
@@ -24,13 +25,14 @@
     EEJSelectMenu *menu = [[EEJSelectMenu alloc]initWithButtons:@[@"ROCK",@"PAPER",@"SCISSORS"]
                                                  animationStyle:EJAnimationStyleFadeIn
                                                     andDelegate:self];
+    menu.selectedButtonColor = [UIColor grayColor];
     [self presentViewController:menu animated:NO completion:nil];
 }
 
 #pragma mark - EJSelectMenuDelegate
 
 - (void)EJSelectMenuButtonWasPressedWithTitle:(NSString *)title {
-    
+    self.buttonLabel.text = title;
 }
 
 @end
