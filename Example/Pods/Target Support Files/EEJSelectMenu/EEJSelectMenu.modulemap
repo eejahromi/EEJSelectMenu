@@ -1,6 +1,0 @@
-framework module EEJSelectMenu {
-  umbrella header "EEJSelectMenu-umbrella.h"
-
-  export *
-  module * { export * }
-}
