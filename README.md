@@ -37,7 +37,7 @@ pod 'EEJSelectMenu'
 
 
 ### Using Source Files
-Add the files in the source folder to your project
+Add the files in the `Classes/` folder to your project
 
 Import the header file to your source code
 ```objective-c
@@ -47,19 +47,36 @@ Import the header file to your source code
 
 Getting Started
 ==================
-Create an instance of EEJSelectMenu and provide button names
+* `Initializers`
+  - `-initWithButtons:animationStyle:color:andDelegate:`
+  - `-initWithButtons:animationStyle:colors:`
+
+Create an instance of EEJSelectMenu and provide button names and color
 ```objective-c
     NSArray *buttonNames = @[@"ONE",@"TWO",@"THREE",@"FOUR"];
-    EEJSelectMenu *menu = [[EEJSelectMenu alloc]initWithButtons:buttonNames 
-                    animationStyle:EJAnimationStyleFadeIn andDelegate:self];
+    [[EEJSelectMenu alloc]initWithButtons:buttonNames
+                                                 animationStyle:EEJAnimationStyleFadeIn
+                                                          color:[UIColor darkGrayColor] 
+                                                          andDelegate:self];
     [self presentViewController:menu animated:NO completion:nil];
 ```    
-OR
+For Multi-Color menu use this initializer
+```objective-c
+    NSArray *buttonNames = @[@"ONE",@"TWO",@"THREE",@"FOUR"];
+    [[EEJSelectMenu alloc]initWithButtons:buttonNames
+                                                 animationStyle:EEJAnimationStyleFadeIn
+                                                    colors:@[[UIColor redColor],[UIColor greenColor]
+                                                        [UIColor blueColor],[UIColor orangeColor]] ];
+                                                          
+    [self presentViewController:menu animated:NO completion:nil];
+``` 
+Or simple initializer with the default color
 ```objective-c    
     EEJSelectMenu *menu = [[EEJSelectMenu alloc]init];
     menu.buttonNames = @[@"ONE",@"TWO",@"THREE",@"FOUR"];
     menu.animationStyle = EJAnimationStyleAlternate;
     menu.delegate = self;
+    // default color is light blue
     
     [self presentViewController:menu animated:NO completion:nil];
 ```
