@@ -13,13 +13,13 @@ Just provide the names for the buttons and the menu will take care of the number
 
 ### Demo
 ###### Animation: FadeIn & Widen 
-![](firstTwo.gif)
+![](first.gif)
 
 ###### Animation: Scale & MoveInFromLeft 
-![](secondTwo.gif)
+![](second.gif)
 
 ###### Animation: MoveInFromRight & Alternate 
-![](lastTwo.gif)
+![](third.gif)
 
 ##### Version 0.1.0
 
