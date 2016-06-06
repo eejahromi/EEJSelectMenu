@@ -21,8 +21,8 @@ typedef NS_OPTIONS(NSUInteger,AnimationStyle) {
 @protocol EEJSelectMenuDelegate <NSObject>
 
 @optional
--(void)EEJSelectMenuButtonWasPressedWithTitle:(NSString *)title;
--(void)EEJSelectMenuButtonWasPressedWithTag:(long)tag;
+- (void)EEJSelectMenuButtonWasPressedWithTitle:(NSString *)title;
+- (void)EEJSelectMenuButtonWasPressedWithTag:(long)tag;
 
 @end
 
