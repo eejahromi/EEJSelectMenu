@@ -69,10 +69,7 @@
 				B20FA30A1D052C4A003973E7 /* ViewController.h */,
 				B20FA30B1D052C4A003973E7 /* ViewController.m */,
 				B20FA30D1D052C4A003973E7 /* Main.storyboard */,
-				B20FA31B1D052CB4003973E7 /* EEJMenuItem.h */,
-				B20FA31C1D052CB4003973E7 /* EEJMenuItem.m */,
-				B20FA31D1D052CB4003973E7 /* EEJSelectMenu.h */,
-				B20FA31E1D052CB4003973E7 /* EEJSelectMenu.m */,
+				B20FA3211D054288003973E7 /* Source */,
 				B20FA3101D052C4A003973E7 /* Assets.xcassets */,
 				B20FA3121D052C4A003973E7 /* LaunchScreen.storyboard */,
 				B20FA3151D052C4A003973E7 /* Info.plist */,
@@ -87,6 +84,17 @@
 				B20FA3051D052C4A003973E7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B20FA3211D054288003973E7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B20FA31B1D052CB4003973E7 /* EEJMenuItem.h */,
+				B20FA31C1D052CB4003973E7 /* EEJMenuItem.m */,
+				B20FA31D1D052CB4003973E7 /* EEJSelectMenu.h */,
+				B20FA31E1D052CB4003973E7 /* EEJSelectMenu.m */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
