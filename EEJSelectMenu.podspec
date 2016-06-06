@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  This Cocoapod allows for implementing a menu with different number of buttons and different animations for appearance. It will adjust the button sizes based on the device screen size!
                    DESC
 
   s.homepage     = "https://github.com/eejahromi/EEJSelectMenu"
