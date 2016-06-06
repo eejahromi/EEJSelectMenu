@@ -2,7 +2,6 @@
 //  ViewController.m
 //  Demo
 //
-//  Created by Ehsan on 6/5/16.
 //  Copyright © 2016 Ehsan Jahromi. All rights reserved.
 //
 
