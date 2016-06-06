@@ -10,6 +10,7 @@
 #import "EEJSelectMenu.h"
 
 @interface ViewController () <EEJSelectMenuDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -38,6 +39,7 @@
                                                                   [UIColor colorWithRed:26/255.0 green:163/255.0 blue:163/255.0 alpha:1.0],
                                                                   [UIColor colorWithRed:134/255.0 green:190/255.0 blue:203/255.0 alpha:1.0],
                                                                   [UIColor colorWithRed:178/255.0 green:229/255.0 blue:229/255.0 alpha:1.0]]];
+    menu.delegate = self;
     [self presentViewController:menu animated:NO completion:nil];
 }
 
@@ -49,6 +51,7 @@
                                                                   [UIColor colorWithRed:76/255.0 green:83/255.0 blue:89/255.0 alpha:1.0],
                                                                   [UIColor colorWithRed:121/255.0 green:140/255.0 blue:138/255.0 alpha:1.0],
                                                                   [UIColor colorWithRed:122/255.0 green:135/255.0 blue:152/255.0 alpha:1.0]]];
+    menu.delegate = self;
     [self presentViewController:menu animated:NO completion:nil];
 }
 
@@ -61,6 +64,7 @@
                                                                   [UIColor colorWithRed:255/255.0 green:88/255.0 blue:52/255.0 alpha:1.0],
                                                                   [UIColor colorWithRed:255/255.0 green:195/255.0 blue:1/255.0 alpha:1.0],
                                                                   [UIColor colorWithRed:243/255.0 green:231/255.0 blue:83/255.0 alpha:1.0]]];
+    menu.delegate = self;
     [self presentViewController:menu animated:NO completion:nil];
 }
 
@@ -72,6 +76,20 @@
 }
 
 - (IBAction)sixButtonsAlternate:(UIButton *)sender {
+    EEJSelectMenu *menu = [[EEJSelectMenu alloc]initWithButtons:@[@"COKE",@"SPRITE",@"FANTA",@"PEPSI",@"MOUNTAIN DEW",@"DR.PEPPER"]
+                                                 animationStyle:EEJAnimationStyleAlternate
+                                                      andColors:@[[UIColor colorWithRed:82/255.0 green:85/255.0 blue:100/255.0 alpha:1.0],
+                                                                  [UIColor colorWithRed:116/255.0 green:130/255.0 blue:143/255.0 alpha:1.0],
+                                                                  [UIColor colorWithRed:150/255.0 green:192/255.0 blue:206/255.0 alpha:1.0],
+                                                                  [UIColor colorWithRed:190/255.0 green:185/255.0 blue:181/255.0 alpha:1.0],
+                                                                  [UIColor colorWithRed:194/255.0 green:81/255.0 blue:86/255.0 alpha:1.0],
+                                                                  [UIColor colorWithRed:222/255.0 green:219/255.0 blue:167/255.0 alpha:1.0]]];
+    menu.delegate = self;
+    [self presentViewController:menu animated:NO completion:nil];
+}
+
+- (void)EEJSelectMenuButtonWasPressedWithTitle:(NSString *)title {
+    self.label.text = title;
 }
 
 @end

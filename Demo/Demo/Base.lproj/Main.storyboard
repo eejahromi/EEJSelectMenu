@@ -78,6 +78,15 @@
                                     <action selector="sixButtonsAlternate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yEz-fJ-T7S"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUl-JH-yXJ">
+                                <rect key="frame" x="20" y="308" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="TlB-gw-eJd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -88,6 +97,7 @@
                             <constraint firstItem="AHU-YF-rMp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5pe-Pv-IR0"/>
                             <constraint firstItem="AHU-YF-rMp" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Aho-FK-DuU"/>
                             <constraint firstItem="2Wv-ln-q8G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ap2-ur-Gdj"/>
+                            <constraint firstItem="gUl-JH-yXJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ApR-dm-vsf"/>
                             <constraint firstItem="cE2-IG-AxZ" firstAttribute="top" secondItem="l1G-IT-Wzt" secondAttribute="bottom" constant="16" id="AsA-aQ-G7B"/>
                             <constraint firstItem="wWo-F8-jOE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="BDE-zG-FoV"/>
                             <constraint firstItem="AHU-YF-rMp" firstAttribute="top" secondItem="wWo-F8-jOE" secondAttribute="bottom" constant="16" id="NQU-iI-Wg7"/>
@@ -100,8 +110,13 @@
                             <constraint firstItem="2Wv-ln-q8G" firstAttribute="top" secondItem="cE2-IG-AxZ" secondAttribute="bottom" constant="16" id="ggU-C9-qh7"/>
                             <constraint firstItem="Qf1-7l-snu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="nSL-j4-1cj"/>
                             <constraint firstItem="Qf1-7l-snu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="oNe-Bg-j9J"/>
+                            <constraint firstItem="gUl-JH-yXJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tRN-Sr-rTB"/>
+                            <constraint firstItem="gUl-JH-yXJ" firstAttribute="top" secondItem="Qf1-7l-snu" secondAttribute="bottom" constant="20" id="yhO-Hj-qyd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="gUl-JH-yXJ" id="jcx-tN-IrX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
