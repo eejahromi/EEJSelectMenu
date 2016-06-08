@@ -21,7 +21,7 @@ Just provide the names for the buttons and the menu will take care of the number
 ###### Animation: MoveInFromRight & Alternate 
 ![](third.gif)
 
-##### Version 0.1.0
+##### Version 1.0.0
 
 
 
@@ -67,6 +67,7 @@ For Multi-Color menu use this initializer
                                                  animationStyle:EEJAnimationStyleFadeIn
                                                     colors:@[[UIColor redColor],[UIColor greenColor]
                                                         [UIColor blueColor],[UIColor orangeColor]] ];
+    menu.delegate = self;
                                                           
     [self presentViewController:menu animated:NO completion:nil];
 ``` 
