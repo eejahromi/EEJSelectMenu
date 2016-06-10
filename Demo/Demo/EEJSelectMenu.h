@@ -93,7 +93,7 @@ typedef NS_OPTIONS(NSUInteger,AnimationStyle) {
 /**
  *  The menu delegate, receives notification of the item pressed
  */
-@property (nonatomic,assign) id<EEJSelectMenuDelegate> delegate;
+@property (nonatomic,weak) id<EEJSelectMenuDelegate> delegate;
 
 
 

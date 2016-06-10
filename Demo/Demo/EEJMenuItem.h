@@ -60,6 +60,6 @@
 /**
  *  The menu item delegate, receives notification of the item pressed
  */
-@property (nonatomic,assign) id<EEJMenuItemDelegate> delegate;
+@property (nonatomic,weak) id<EEJMenuItemDelegate> delegate;
 
 @end
