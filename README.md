@@ -54,7 +54,7 @@ Getting Started
 Create an instance of EEJSelectMenu and provide button names and color
 ```objective-c
     NSArray *buttonNames = @[@"ONE",@"TWO",@"THREE",@"FOUR"];
-    [[EEJSelectMenu alloc]initWithButtons:buttonNames
+    EEJSelectMenu *menu = [[EEJSelectMenu alloc]initWithButtons:buttonNames
                                                  animationStyle:EEJAnimationStyleFadeIn
                                                           color:[UIColor darkGrayColor] 
                                                           andDelegate:self];
@@ -63,7 +63,7 @@ Create an instance of EEJSelectMenu and provide button names and color
 For Multi-Color menu use this initializer
 ```objective-c
     NSArray *buttonNames = @[@"ONE",@"TWO",@"THREE",@"FOUR"];
-    [[EEJSelectMenu alloc]initWithButtons:buttonNames
+    EEJSelectMenu *menu = [[EEJSelectMenu alloc]initWithButtons:buttonNames
                                                  animationStyle:EEJAnimationStyleFadeIn
                                                     colors:@[[UIColor redColor],[UIColor greenColor]
                                                         [UIColor blueColor],[UIColor orangeColor]] ];
