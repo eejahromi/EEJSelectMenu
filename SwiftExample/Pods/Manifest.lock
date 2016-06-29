@@ -1,0 +1,10 @@
+PODS:
+  - EEJSelectMenu (1.1.1)
+
+DEPENDENCIES:
+  - EEJSelectMenu
+
+SPEC CHECKSUMS:
+  EEJSelectMenu: 3d001af0d1222c8612b1b3b935ebd2834aa4466c
+
+COCOAPODS: 0.39.0
