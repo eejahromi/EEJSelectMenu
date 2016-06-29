@@ -24,4 +24,5 @@ We will be using an example proeject called `EEJSelectMenuSwift`
 ![](screenshots/5.png)
 
 * Now you can use EEJSelectMenu in your Swift project without importing any other headers in your specific files  👍  🎉
+
 ![](screenshots/6.png)
