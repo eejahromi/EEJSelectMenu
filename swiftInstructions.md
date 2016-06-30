@@ -9,7 +9,7 @@ We will be using an example project called `EEJSelectMenuSwift`
 ![](screenshots/1.png)
 ![](screenshots/2.png)
 
-* In the `Save As` field enter your projects name followed by `-Bridging-Header.h`. (So for this example, the project name `EEJSelectMenuSwift` will need to be saved as 'EEJSelectMenuSwift-Bridging-Header.h')
+* In the `Save As` field enter your projects name followed by `-Bridging-Header.h`. (So for this example, the project name `EEJSelectMenuSwift` will need to be saved as `EEJSelectMenuSwift-Bridging-Header.h`)
 
 ![](screenshots/3.png)
 
@@ -17,9 +17,9 @@ We will be using an example project called `EEJSelectMenuSwift`
 
 ![](screenshots/4.png)
 
-* Now Build your project to let the compiler know that you are using a bridging header
+* Now Build your project (Command + B) to let the compiler know that you are using a bridging header
 
-* Go to your brodging header file and import `EEJSelectMenu.h` file
+* Go to your bridging header file and import `EEJSelectMenu.h` file
 
 ![](screenshots/5.png)
 
