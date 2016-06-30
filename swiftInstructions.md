@@ -23,6 +23,8 @@ We will be using an example project called `EEJSelectMenuSwift`
 
 ![](screenshots/5.png)
 
-* Now you can use EEJSelectMenu in your Swift project without importing any other headers in your specific files  👍  🎉
+* Now you can use EEJSelectMenu in your Swift project without importing any other headers in your files 👍  🎉
+
+* You can find the completed EEJSelectMenuSwift example project in the [SwiftExample](https://github.com/eejahromi/EEJSelectMenu/tree/master/SwiftExample) folder.
 
 ![](screenshots/6.png)
