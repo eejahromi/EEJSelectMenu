@@ -1,6 +1,6 @@
 EEJSelectMenu can be implemented in a Swift project in just a few steps using a bridging header file. This page will walk you through an example of how to to exactly that!
 
-We will be using an example proeject called `EEJSelectMenuSwift`
+We will be using an example project called `EEJSelectMenuSwift`
 
 * After installing the CocoaPod, you will have to create a Bridging-Header file in order to mix Objective-C files with your Swift code.
 
