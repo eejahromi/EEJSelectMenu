@@ -1,4 +1,4 @@
-EEJSelectMenu can be implemented in a Swift project in just a few steps using a bridging header file. This page will walk you through an example of how to to exactly that!
+EEJSelectMenu can be implemented in a Swift project in just a few steps using a bridging header file. This page will walk you through an example of how to do exactly that!
 
 We will be using an example project called `EEJSelectMenuSwift`
 
