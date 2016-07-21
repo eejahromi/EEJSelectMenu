@@ -198,13 +198,11 @@
 
 - (void)alternateAnimation:(EEJMenuItem *)item {
     CGFloat xPosition;
-    if (even) {
-        even = !even;
-        xPosition = -self.view.bounds.size.width;
-    }else {
-        even = !even;
-        xPosition = self.view.bounds.size.width;
-    }
+    CGFloat viewWidth = self.view.bounds.size.width;
+    
+    // toggling initial position and even/odd variable
+    xPosition = (even ? -viewWidth : viewWidth);
+    even = !even;
     
     // animate in from sides
     item.frame = CGRectMake(xPosition, item.frame.origin.y, item.frame.size.width, item.frame.size.height);
