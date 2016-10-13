@@ -47,7 +47,7 @@ Import the header file to your source code
 
 Getting Started
 ==================
-##### Note: 🔶 To use EEJSelectMenu in your Swift project checkout [these](https://github.com/eejahromi/EEJSelectMenu/blob/master/swiftInstructions.md) simple steps to get you started. 🔶
+##### Note: 🔶 To use EEJSelectMenu in your Swift project add `use_frameworks!` to your Podfile or checkout [these](https://github.com/eejahromi/EEJSelectMenu/blob/master/swiftInstructions.md) simple steps to create a bridging header and  get you started. 🔶
 
 * `Initializers`
   - `-initWithButtons:animationStyle:color:andDelegate:`
